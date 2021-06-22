@@ -1,0 +1,10 @@
+C:\Users\rosiu\x\Inventory\Inventory.App\bin\Debug\Inventory.App.exe.config
+C:\Users\rosiu\x\Inventory\Inventory.App\bin\Debug\Inventory.App.exe
+C:\Users\rosiu\x\Inventory\Inventory.App\bin\Debug\Inventory.App.pdb
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.csproj.AssemblyReference.cache
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.Properties.Resources.resources
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.csproj.GenerateResource.cache
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.csproj.CoreCompileInputs.cache
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.exe
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.pdb
+C:\Users\rosiu\x\Inventory\Inventory.App\obj\Debug\Inventory.App.Main.resources
