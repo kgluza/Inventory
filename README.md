@@ -21,19 +21,24 @@ Następnie w projekcie `Inventory.App`, w głównej klasie `Main` należy podmie
 ## Wygląd aplikacji
 
 Zakładka produktów
+
 ![1](doc/1.PNG)
 
 Zakładka kategorii
+
 ![2](doc/2.PNG)
 
 Zakładka lokalizacji
+
 ![3](doc/3.PNG)
 
 Wyszukiwanie produktów
+
 ![4](doc/4.PNG)
 
 
 Edycja produktów oraz upload dokumentów
+
 ![5](doc/5.PNG)
 
 
