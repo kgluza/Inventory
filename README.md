@@ -1,5 +1,5 @@
 # Inventory
-##Bezpieczeństwo sieci komputerowych BM
+## Bezpieczeństwo sieci komputerowych BM
 
 ## Pomysł na aplikację
 
@@ -17,3 +17,25 @@ Solucja składa się z 3 projektów:
 Aby uruchomić lokalnie aplikację najpierw należy wdrożyć bazę danych. W tym celu w programie Visual Studio klikamy prawym przyciskiem myszy na projekt `Inventory.Db` a następnie `Publish`. Tworzymy nowe połączenie do serwera SQL na który chcemy zdeployować bazę i kontynuujemy.
 
 Następnie w projekcie `Inventory.App`, w głównej klasie `Main` należy podmienić zahardcodowany connection string do bazy danych. Te dwa kroki powinny wystarczyć aby odpalić aplikację.
+
+## Wygląd aplikacji
+
+Zakładka produktów
+![1](doc/1.PNG)
+
+Zakładka kategorii
+![2](doc/2.PNG)
+
+Zakładka lokalizacji
+![3](doc/3.PNG)
+
+Wyszukiwanie produktów
+![4](doc/4.PNG)
+
+
+Edycja produktów oraz upload dokumentów
+![5](doc/5.PNG)
+
+
+Historia zmian w tabeli `Items`
+![6](doc/6.PNG)
