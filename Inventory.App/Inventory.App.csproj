@@ -35,6 +35,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.2\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItem.Designer.cs">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLocation.Designer.cs">
+      <DependentUpon>AddLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategory.Designer.cs">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +75,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLocation.resx">
+      <DependentUpon>AddLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCategory.resx">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +96,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inventory.Data\Inventory.Data.csproj">
+      <Project>{E7CD4AFC-824A-46F9-8844-0BDCF50933D8}</Project>
+      <Name>Inventory.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
